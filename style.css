@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    
+} 
+
+.about{
+    color: #efe2d9;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 2%;
+}
+ol{
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+ul{
+    font-size: 20px;
+    margin-left: 2%;
+}
+dt{ 
+    font-size: 16px;
+}
+dd{ 
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+body{
+    background-color:#291d1d;
+}
+.navbar {
+    height: 100%;
+    width: 100%;
+    background-color:#291d1d;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    position: sticky;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:#eee2d8;
+    z-index: 1;
+}
+.logo {
+    color: #af3327;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: default;
+
+}
+nav ul li {
+   list-style-type: none; 
+   display: inline-block;
+   padding: 10px 25px;
+  
+}
+nav ul li a {
+    color: #af3327;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+} 
+nav ul li a:hover {
+    color: #81b4b4;
+    transition: 0.5s;
+}
+.gambar1 {
+    width: 25%;
+    height: 29%;
+    bottom: 0;
+    right: 25%;
+    margin-top: 7%;
+    margin-bottom: 100px;
+    transform: translateX(52%);
+}
+.basabasi {
+    position:absolute;
+    top: 45%;
+    left: 45%;
+}
+h4 {
+   color:#efe2d9;
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+h1 {
+    color:#efe2d9;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+h3 {
+    color:#efe2d9;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+h2 {
+    color:#efe2d9;
+    font-size: 42px;
+    margin: 20px 0 20px;
+    
+}
+h5{
+    color:#efe2d9;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-right: 22%;
+    margin-bottom: 12px;
+    margin-top: 21px;
+    transform: translateX(17%);
+}
+h6{
+    color:#efe2d9;
+    font-size: 20px;
+    margin-right: 22%;
+    margin-top: 12px;
+    transform: translateX(17%);
+}
+.intro{
+    background-color: #0c0808;
+    background-size: cover;
+    color:#efe2d9;
+    font-size: 20px;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 100px;
+    padding-bottom: 20%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: 20%;
+}
